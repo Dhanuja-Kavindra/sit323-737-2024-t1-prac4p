@@ -6,3 +6,25 @@
 {"level":"info","message":"New multiply operation requested: 6 multiply 3","service":"calculator-microservice"}
 {"level":"info","message":"New subtract operation requested: 6 subtract 3","service":"calculator-microservice"}
 {"level":"info","message":"New add operation requested: 6 add 3","service":"calculator-microservice"}
+{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
+{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
+{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
+{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
+{"level":"info","message":"New divide operation requested: 50 divide 2","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
+{"level":"info","message":"New add operation requested: 25 add 6","service":"calculator-microservice"}
+{"level":"info","message":"New subtract operation requested: 25 subtract 6","service":"calculator-microservice"}
+{"level":"info","message":"New multiply operation requested: 25 multiply 6","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for divide operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for add operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for divide operation","service":"calculator-microservice"}
+{"level":"error","message":"Invalid inputs for add operation","service":"calculator-microservice"}
+{"level":"info","message":"New add operation requested: 89 add 45","service":"calculator-microservice"}
+{"level":"info","message":"New multiply operation requested: 89 multiply 45","service":"calculator-microservice"}
+{"level":"info","message":"New divide operation requested: 89 divide 45","service":"calculator-microservice"}

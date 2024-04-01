@@ -30,7 +30,11 @@ cal_app.post('/subtract', (req, res) => {
             level: 'error',
             message: `Invalid inputs for ${operation} operation`
             });
+        const result = `Invalid inputs for ${operation} operation`;
+        res.send({result});
+            
         return res.status(400).send({ error: 'Invalid input numbers' });
+        
     }
     const result = num1 - num2;
     logger.log({
@@ -48,6 +52,9 @@ cal_app.post('/multiply', (req, res) => {
             level: 'error',
             message: `Invalid inputs for ${operation} operation`
             });
+        
+        const result = `Invalid inputs for ${operation} operation`;
+        res.send({result});
         return res.status(400).send({ error: 'Invalid input numbers' });
     }
     const result = num1 * num2;
@@ -66,6 +73,9 @@ cal_app.post('/add', (req, res) => {
             level: 'error',
             message: `Invalid inputs for ${operation} operation`
             });
+        
+        const result = `Invalid inputs for ${operation} operation`;
+        res.send({result});
         return res.status(400).send({ error: 'Invalid input numbers' });
     }
     const result = num1 + num2;
@@ -84,6 +94,9 @@ cal_app.post('/divide', (req, res) => {
             level: 'error',
             message: `Invalid inputs for ${operation} operation`
             });
+        
+        const result = `Invalid inputs for ${operation} operation`;
+        res.send({result});
         return res.status(400).send({ error: 'Invalid input numbers' });
     }
     if (num2 === 0) {
@@ -91,6 +104,9 @@ cal_app.post('/divide', (req, res) => {
             level: 'error',
             message: `Zero received for ${operation} operation`
             });
+       
+        const result = `Zero received for ${operation} operation`;
+        res.send({result});
         return res.status(400).send({ error: 'Cannot divide by zero' });
     }
     const result = num1 / num2;
