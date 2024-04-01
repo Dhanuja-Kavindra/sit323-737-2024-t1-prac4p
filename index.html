@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .button {
+            background-color: #04AA6D; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: #04AA6D;
+            border: 2px solid #04AA6D;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="number" id="num_1" required placeholder="Number 1">
+    <input type="number" id="num_2" required placeholder="Number 2"><br>
+    <button onclick="calculate('add')" class="button">Add</button>
+    <button onclick="calculate('subtract')" class="button">Subtract</button>
+    <button onclick="calculate('multiply')" class="button">Multiply</button>
+    <button onclick="calculate('divide')" class="button">Divide</button>
+    <h2>Result: <span id="result"></span></h2>
+
+    <script src="cal_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{"level":"info","message":"New add operation requested: 25 add3","service":"calculator-microservice"}
+{"level":"info","message":"New multiply operation requested: 25 multiply3","service":"calculator-microservice"}
+{"level":"info","message":"New divide operation requested: 25 divide3","service":"calculator-microservice"}
+{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
+{"level":"info","message":"New divide operation requested: 6 divide 3","service":"calculator-microservice"}
+{"level":"info","message":"New multiply operation requested: 6 multiply 3","service":"calculator-microservice"}
+{"level":"info","message":"New subtract operation requested: 6 subtract 3","service":"calculator-microservice"}
+{"level":"info","message":"New add operation requested: 6 add 3","service":"calculator-microservice"}
