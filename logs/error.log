@@ -1,16 +1,2 @@
-{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Zero received for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for add operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for subtract operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for multiply operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for divide operation","service":"calculator-microservice"}
-{"level":"error","message":"Invalid inputs for add operation","service":"calculator-microservice"}
+{"level":"error","message":"Add operation error: Error: Parsing Error...! number 1 incorrectly defined","service":"calculator-service"}
+{"level":"error","message":"Divide operation error: Error: Division by zero error","service":"calculator-service"}

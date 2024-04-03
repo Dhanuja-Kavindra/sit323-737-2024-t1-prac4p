@@ -9,27 +9,28 @@
             background-color: #04AA6D; /* Green */
             border: none;
             color: white;
-            padding: 16px 32px;
+            padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
             margin: 4px 2px;
-            transition-duration: 0.4s;
             cursor: pointer;
+            border-radius: 4px; /* Added border-radius */
+            transition-duration: 0.4s; /* Smooth transition for hover effect */
         }
 
         .button:hover {
-            background-color: white;
-            color: #04AA6D;
-            border: 2px solid #04AA6D;
+            background-color: white; /* Change background color on hover */
+            color: #04AA6D; /* Change text color on hover */
+            border: 2px solid #04AA6D; /* Add border on hover */
         }
     </style>
 </head>
 <body>
     <h1>Calculator</h1>
-    <input type="number" id="num_1" required placeholder="Number 1">
-    <input type="number" id="num_2" required placeholder="Number 2"><br>
+    <input type="text" id="num_1" required placeholder="Number 1">
+    <input type="text" id="num_2" required placeholder="Number 2"><br>
     <button onclick="calculate('add')" class="button">Add</button>
     <button onclick="calculate('subtract')" class="button">Subtract</button>
     <button onclick="calculate('multiply')" class="button">Multiply</button>

@@ -1,19 +1,19 @@
 function calculate(operation) {
-    const num1 = parseFloat(document.getElementById('num_1').value);
-    const num2 = parseFloat(document.getElementById('num_2').value);
+    const num1 = document.getElementById('num_1').value;
+    const num2 = document.getElementById('num_2').value;
+    
+    const url = `http://localhost:8080/${operation}?num1=${num1}&num2=${num2}`;
 
-    const url = `http://localhost:8080/${operation}`; 
-
-    fetch(url, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ num1, num2, operation }),
-    })
+    fetch(url)
     .then(response => response.json())
     .then(data => {
-        document.getElementById('result').textContent = data.result;
+        if (data.statuscode === 200) {
+            document.getElementById('result').textContent = data.data;
+        } else {
+            document.getElementById('result').textContent = data.message;
+        }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+        document.getElementById('result').textContent = 'Error: ' + error.message;
+    });
 }
